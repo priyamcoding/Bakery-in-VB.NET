@@ -4,7 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>Priyamform1</RootNamespace>
-    <StartupObject>Priyamform1.Form3</StartupObject>
+    <StartupObject>Priyamform1.Form5</StartupObject>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 

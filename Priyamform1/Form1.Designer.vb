@@ -77,6 +77,7 @@ Partial Class Form1
 		'Button1
 		'
 		Me.Button1.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.Button1.ForeColor = System.Drawing.Color.Black
 		Me.Button1.Location = New System.Drawing.Point(306, 255)
 		Me.Button1.Name = "Button1"
 		Me.Button1.Size = New System.Drawing.Size(119, 37)
@@ -88,6 +89,7 @@ Partial Class Form1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		Me.ClientSize = New System.Drawing.Size(800, 450)
 		Me.Controls.Add(Me.Button1)
 		Me.Controls.Add(Me.TextBox2)
@@ -95,6 +97,7 @@ Partial Class Form1
 		Me.Controls.Add(Me.Label3)
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label1)
+		Me.ForeColor = System.Drawing.SystemColors.ButtonFace
 		Me.Name = "Form1"
 		Me.Text = "Form1"
 		Me.ResumeLayout(False)

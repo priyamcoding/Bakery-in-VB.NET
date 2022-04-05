@@ -76,18 +76,21 @@ Partial Class Form2
 		'
 		'Button1
 		'
+		Me.Button1.BackColor = System.Drawing.Color.White
 		Me.Button1.Font = New System.Drawing.Font("Yu Gothic UI", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.Button1.ForeColor = System.Drawing.SystemColors.InfoText
 		Me.Button1.Location = New System.Drawing.Point(334, 285)
 		Me.Button1.Name = "Button1"
 		Me.Button1.Size = New System.Drawing.Size(102, 37)
 		Me.Button1.TabIndex = 5
 		Me.Button1.Text = "SUBMIT "
-		Me.Button1.UseVisualStyleBackColor = True
+		Me.Button1.UseVisualStyleBackColor = False
 		'
 		'Form2
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
 		Me.ClientSize = New System.Drawing.Size(800, 450)
 		Me.Controls.Add(Me.Button1)
 		Me.Controls.Add(Me.TextBox2)
@@ -95,6 +98,7 @@ Partial Class Form2
 		Me.Controls.Add(Me.Label3)
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label1)
+		Me.ForeColor = System.Drawing.Color.White
 		Me.Name = "Form2"
 		Me.Text = "Form2"
 		Me.ResumeLayout(False)

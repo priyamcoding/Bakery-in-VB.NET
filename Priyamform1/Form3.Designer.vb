@@ -39,6 +39,8 @@ Partial Class Form3
 		Me.RadioButton2 = New System.Windows.Forms.RadioButton()
 		Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
 		Me.TextBox3 = New System.Windows.Forms.TextBox()
+		Me.Label9 = New System.Windows.Forms.Label()
+		Me.DateTimePicker2 = New System.Windows.Forms.DateTimePicker()
 		Me.SuspendLayout()
 		'
 		'Label1
@@ -55,7 +57,7 @@ Partial Class Form3
 		'
 		Me.Label2.AutoSize = True
 		Me.Label2.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label2.Location = New System.Drawing.Point(140, 85)
+		Me.Label2.Location = New System.Drawing.Point(135, 59)
 		Me.Label2.Name = "Label2"
 		Me.Label2.Size = New System.Drawing.Size(105, 21)
 		Me.Label2.TabIndex = 1
@@ -65,7 +67,7 @@ Partial Class Form3
 		'
 		Me.Label3.AutoSize = True
 		Me.Label3.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label3.Location = New System.Drawing.Point(140, 128)
+		Me.Label3.Location = New System.Drawing.Point(135, 103)
 		Me.Label3.Name = "Label3"
 		Me.Label3.Size = New System.Drawing.Size(73, 21)
 		Me.Label3.TabIndex = 2
@@ -75,7 +77,7 @@ Partial Class Form3
 		'
 		Me.Label4.AutoSize = True
 		Me.Label4.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label4.Location = New System.Drawing.Point(140, 174)
+		Me.Label4.Location = New System.Drawing.Point(135, 149)
 		Me.Label4.Name = "Label4"
 		Me.Label4.Size = New System.Drawing.Size(70, 21)
 		Me.Label4.TabIndex = 3
@@ -85,7 +87,7 @@ Partial Class Form3
 		'
 		Me.Label5.AutoSize = True
 		Me.Label5.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label5.Location = New System.Drawing.Point(140, 223)
+		Me.Label5.Location = New System.Drawing.Point(135, 189)
 		Me.Label5.Name = "Label5"
 		Me.Label5.Size = New System.Drawing.Size(44, 21)
 		Me.Label5.TabIndex = 4
@@ -95,7 +97,7 @@ Partial Class Form3
 		'
 		Me.Label6.AutoSize = True
 		Me.Label6.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label6.Location = New System.Drawing.Point(140, 266)
+		Me.Label6.Location = New System.Drawing.Point(135, 239)
 		Me.Label6.Name = "Label6"
 		Me.Label6.Size = New System.Drawing.Size(152, 21)
 		Me.Label6.TabIndex = 5
@@ -105,7 +107,7 @@ Partial Class Form3
 		'
 		Me.Label7.AutoSize = True
 		Me.Label7.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label7.Location = New System.Drawing.Point(140, 312)
+		Me.Label7.Location = New System.Drawing.Point(135, 286)
 		Me.Label7.Name = "Label7"
 		Me.Label7.Size = New System.Drawing.Size(110, 21)
 		Me.Label7.TabIndex = 6
@@ -115,7 +117,7 @@ Partial Class Form3
 		'
 		Me.Label8.AutoSize = True
 		Me.Label8.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Label8.Location = New System.Drawing.Point(140, 362)
+		Me.Label8.Location = New System.Drawing.Point(135, 375)
 		Me.Label8.Name = "Label8"
 		Me.Label8.Size = New System.Drawing.Size(101, 21)
 		Me.Label8.TabIndex = 7
@@ -124,16 +126,17 @@ Partial Class Form3
 		'Button1
 		'
 		Me.Button1.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.Button1.Location = New System.Drawing.Point(369, 406)
+		Me.Button1.ForeColor = System.Drawing.Color.Black
+		Me.Button1.Location = New System.Drawing.Point(340, 406)
 		Me.Button1.Name = "Button1"
 		Me.Button1.Size = New System.Drawing.Size(104, 32)
 		Me.Button1.TabIndex = 8
-		Me.Button1.Text = "submit"
+		Me.Button1.Text = "Submit"
 		Me.Button1.UseVisualStyleBackColor = True
 		'
 		'TextBox1
 		'
-		Me.TextBox1.Location = New System.Drawing.Point(314, 77)
+		Me.TextBox1.Location = New System.Drawing.Point(317, 59)
 		Me.TextBox1.Name = "TextBox1"
 		Me.TextBox1.Size = New System.Drawing.Size(217, 23)
 		Me.TextBox1.TabIndex = 9
@@ -143,7 +146,7 @@ Partial Class Form3
 		Me.ComboBox1.AllowDrop = True
 		Me.ComboBox1.FormattingEnabled = True
 		Me.ComboBox1.Items.AddRange(New Object() {"Flour ", "Fat ", "Sugar", "Fondant", "Garnish", "Fruits", "Flavoring", "Chocolate Chips", "Sprinkles", "Milk", "Eggs"})
-		Me.ComboBox1.Location = New System.Drawing.Point(314, 128)
+		Me.ComboBox1.Location = New System.Drawing.Point(314, 105)
 		Me.ComboBox1.Name = "ComboBox1"
 		Me.ComboBox1.Size = New System.Drawing.Size(217, 23)
 		Me.ComboBox1.TabIndex = 10
@@ -151,14 +154,14 @@ Partial Class Form3
 		'ComboBox2
 		'
 		Me.ComboBox2.FormattingEnabled = True
-		Me.ComboBox2.Location = New System.Drawing.Point(314, 174)
+		Me.ComboBox2.Location = New System.Drawing.Point(314, 151)
 		Me.ComboBox2.Name = "ComboBox2"
 		Me.ComboBox2.Size = New System.Drawing.Size(217, 23)
 		Me.ComboBox2.TabIndex = 11
 		'
 		'TextBox2
 		'
-		Me.TextBox2.Location = New System.Drawing.Point(314, 220)
+		Me.TextBox2.Location = New System.Drawing.Point(314, 191)
 		Me.TextBox2.Name = "TextBox2"
 		Me.TextBox2.Size = New System.Drawing.Size(217, 23)
 		Me.TextBox2.TabIndex = 12
@@ -167,7 +170,7 @@ Partial Class Form3
 		'
 		Me.RadioButton1.AutoSize = True
 		Me.RadioButton1.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.RadioButton1.Location = New System.Drawing.Point(314, 264)
+		Me.RadioButton1.Location = New System.Drawing.Point(314, 239)
 		Me.RadioButton1.Name = "RadioButton1"
 		Me.RadioButton1.Size = New System.Drawing.Size(51, 25)
 		Me.RadioButton1.TabIndex = 13
@@ -179,7 +182,7 @@ Partial Class Form3
 		'
 		Me.RadioButton2.AutoSize = True
 		Me.RadioButton2.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
-		Me.RadioButton2.Location = New System.Drawing.Point(434, 266)
+		Me.RadioButton2.Location = New System.Drawing.Point(434, 239)
 		Me.RadioButton2.Name = "RadioButton2"
 		Me.RadioButton2.Size = New System.Drawing.Size(49, 25)
 		Me.RadioButton2.TabIndex = 14
@@ -189,23 +192,43 @@ Partial Class Form3
 		'
 		'DateTimePicker1
 		'
-		Me.DateTimePicker1.Location = New System.Drawing.Point(314, 306)
+		Me.DateTimePicker1.Location = New System.Drawing.Point(317, 284)
 		Me.DateTimePicker1.Name = "DateTimePicker1"
 		Me.DateTimePicker1.Size = New System.Drawing.Size(217, 23)
 		Me.DateTimePicker1.TabIndex = 15
 		'
 		'TextBox3
 		'
-		Me.TextBox3.Location = New System.Drawing.Point(311, 359)
+		Me.TextBox3.Location = New System.Drawing.Point(314, 377)
 		Me.TextBox3.Name = "TextBox3"
 		Me.TextBox3.Size = New System.Drawing.Size(220, 23)
 		Me.TextBox3.TabIndex = 16
+		'
+		'Label9
+		'
+		Me.Label9.AutoSize = True
+		Me.Label9.Font = New System.Drawing.Font("Yu Gothic UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+		Me.Label9.Location = New System.Drawing.Point(135, 329)
+		Me.Label9.Name = "Label9"
+		Me.Label9.Size = New System.Drawing.Size(115, 21)
+		Me.Label9.TabIndex = 17
+		Me.Label9.Text = "Expiration Date"
+		'
+		'DateTimePicker2
+		'
+		Me.DateTimePicker2.Location = New System.Drawing.Point(314, 329)
+		Me.DateTimePicker2.Name = "DateTimePicker2"
+		Me.DateTimePicker2.Size = New System.Drawing.Size(217, 23)
+		Me.DateTimePicker2.TabIndex = 18
 		'
 		'Form3
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+		Me.BackColor = System.Drawing.Color.Black
 		Me.ClientSize = New System.Drawing.Size(800, 450)
+		Me.Controls.Add(Me.DateTimePicker2)
+		Me.Controls.Add(Me.Label9)
 		Me.Controls.Add(Me.TextBox3)
 		Me.Controls.Add(Me.DateTimePicker1)
 		Me.Controls.Add(Me.RadioButton2)
@@ -223,6 +246,7 @@ Partial Class Form3
 		Me.Controls.Add(Me.Label3)
 		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Label1)
+		Me.ForeColor = System.Drawing.Color.White
 		Me.Name = "Form3"
 		Me.Text = "Form3"
 		Me.ResumeLayout(False)
@@ -247,4 +271,6 @@ Partial Class Form3
 	Friend WithEvents RadioButton2 As RadioButton
 	Friend WithEvents DateTimePicker1 As DateTimePicker
 	Friend WithEvents TextBox3 As TextBox
+	Friend WithEvents Label9 As Label
+	Friend WithEvents DateTimePicker2 As DateTimePicker
 End Class
